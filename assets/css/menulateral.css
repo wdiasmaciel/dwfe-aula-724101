@@ -14,9 +14,25 @@ li {
 }
 
 .opcao {
+    /* border: .1rem solid green; */
     display: flex;
     border-radius: .5rem;
     padding: .6rem;
     background-color: antiquewhite;
+    color: #5e5e5e;
+}
 
+.opcao:hover {
+    background-color: #ccc;
+    color: black;
+    box-shadow: 0.3rem .3rem .3rem 0.01rem #ddd;
+    border: .1rem solid #bdbdbd;
+}
+
+.opcao:hover .rotulo{
+    text-align: right;
+}
+
+.opcao:hover .icone-final{
+    opacity: 1;
 }
